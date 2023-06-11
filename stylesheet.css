@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 20px;
+    color: #5F5D5C;
+    background-color: #F3EAC0;
+    margin: 10px 0px 5px 15px;
+}
+
+.index h1 ,
+.recipe h1 {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    color:#454140 ;
+}
