@@ -16,15 +16,11 @@
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     color:#454140 ;
 }
 
-.index li   {
-    list-style: none;
-}
-
-.index div.borderlink {
+.index div.borderbox {
     border: #454140;
     border-style: solid;
     border-width: 5px;
@@ -34,8 +30,18 @@ h2 {
     height: 300px;
 }
 
-.borderlink {
+.borderbox {
     display: inline-flex;
+}
+
+.borderbox-c {
+    margin-top: 35px;
+}
+.borderbox-d .box,
+.borderbox-e .box {
+    display: inline-flex;
+    width: 200px;
+    height: 5px;
 }
 
 .images {
@@ -44,7 +50,7 @@ h2 {
     margin: 10px;
 }
 
-.borderlink .hyperlink {
+.index .hyperlink {
     color:#DE6821;
     text-decoration: none;
 }
