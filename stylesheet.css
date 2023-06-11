@@ -43,3 +43,8 @@ h2 {
     height: auto;
     margin: 10px;
 }
+
+.borderlink .hyperlink {
+    color:#DE6821;
+    text-decoration: none;
+}
