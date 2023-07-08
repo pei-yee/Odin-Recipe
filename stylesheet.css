@@ -31,6 +31,7 @@ h2 {
   display: flex;
   width: 900px;
   height: fit-content;
+  margin-bottom: 40px;
 }
 
 .content {
@@ -47,7 +48,7 @@ a {
   border: black solid 5px;
   width: 180px;
   height: 40px;
-  margin: -120px -0px 0px 850px;
+  margin: -150px -0px 0px 780px;
   padding: 7px 0px 7px 15px;
   position: absolute;
   background-color: #cbb8ad;
@@ -57,17 +58,6 @@ a {
   color: black;
   text-decoration: none;
 }
-
-/*    border-style: solid;
-    border-width: 3px;
-    box-sizing: border-box;
-    width: 200px;
-    height: 50px;
-    background-color: #CBB8AD;
-    margin: -120px -0px 0px 850px;
-    padding: 7px 0px 7px 15px;
-    position: absolute;
-*/
 
 /*
 * {
