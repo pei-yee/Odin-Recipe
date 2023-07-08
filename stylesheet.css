@@ -1,9 +1,46 @@
-
 * {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    color: #5F5D5C;
-    background-color: #F3EAC0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: #5f5d5c;
+  background-color: #f3eac0;
+}
+
+.index h1,
+.recipe h1 {
+  font-family: monospace;
+  font-size: 40px;
+  font-weight: lighter;
+  text-decoration: underline;
+  color: black;
+}
+
+h2 {
+  font-size: 30px;
+  color: #454140;
+}
+
+.images {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  flex: 0 0 300px;
+}
+
+.cards {
+  border: black solid 5px;
+  display: flex;
+  width: 900px;
+  height: fit-content;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
 }
 
 /*
